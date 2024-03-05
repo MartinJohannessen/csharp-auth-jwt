@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -91,5 +92,11 @@ namespace auth.Endpoints
             }
             return Results.BadRequest(result.Errors);
         }
+=======
+﻿namespace exercise.wwwapi.Endpoints
+{
+    public class UserEndpoint
+    {
+>>>>>>> 27ec638d3155b72106e5335592873d1d0bff0465
     }
 }

@@ -129,7 +129,11 @@ app.UseStatusCodePages();
 app.UseAuthentication();
 app.UseAuthorization();
 
+<<<<<<< HEAD
 app.ConfigurePostEndpoint();
+=======
+app.ConfigureCarEndpoint();
+>>>>>>> 27ec638d3155b72106e5335592873d1d0bff0465
 
 app.MapControllers();
 app.Run();

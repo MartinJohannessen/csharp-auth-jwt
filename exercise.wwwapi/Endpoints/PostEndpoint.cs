@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
@@ -102,5 +103,11 @@ namespace exercise.wwwapi.Endpoints
             return TypedResults.Created($"/{entity.Id}", new { Make = entity.Make, Model = entity.Model });
 
         }
+=======
+﻿namespace exercise.wwwapi.Endpoints
+{
+    public class PostEndpoint
+    {
+>>>>>>> 27ec638d3155b72106e5335592873d1d0bff0465
     }
 }
